@@ -6,8 +6,8 @@ import java.util.List;
 
 public class DatabaseHandler {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/pharmacy_db";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "Strongest2002";
+    private static final String USERNAME = "username_here";
+    private static final String PASSWORD = "password_here";
 
     // Establish the connection to the database
     private Connection getConnection() throws SQLException {
